@@ -1,0 +1,55 @@
+header {
+    //nav bar of the site.styling
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    nav {
+        display: flex;
+        justify-content: space-between;
+        padding: 5px 20px;
+        align-items: center;
+        flex-direction: column;
+
+        // height: 300px;
+        .menu_items {
+            display: flex;
+            gap: 20px;
+            width: 100%;
+            justify-content: space-evenly;
+
+            p {
+                margin: 5px auto;
+            }
+        }
+
+        
+    }
+}
+
+// site name styling here
+.micro-blogging {
+    font-size: large;
+    color: green($color: #cb1010);
+}
+
+
+//footer of website. Used box shadow for design
+footer {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        display: flex;
+        justify-content: space-between;
+        padding: 5px 20px;
+        align-items: center;
+        flex-direction: column;
+        p {
+            font-size: 12px;
+        }
+        .footer_links {
+            display: flex;
+            flex-direction: row;
+            gap: 15px;
+            a{
+                font-size: 12px;
+                text-decoration: none;
+                color: #000;
+            }
+        }
+}

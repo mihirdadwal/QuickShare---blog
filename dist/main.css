@@ -1,0 +1,141 @@
+header {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+header nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 20px;
+  align-items: center;
+  flex-direction: column;
+}
+header nav .menu_items {
+  display: flex;
+  gap: 20px;
+  width: 100%;
+  justify-content: space-evenly;
+}
+header nav .menu_items p {
+  margin: 5px auto;
+}
+
+.micro-blogging {
+  font-size: large;
+  color: 16;
+}
+
+footer {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 20px;
+  align-items: center;
+  flex-direction: column;
+}
+footer p {
+  font-size: 12px;
+}
+footer .footer_links {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+}
+footer .footer_links a {
+  font-size: 12px;
+  text-decoration: none;
+  color: #000;
+}
+
+body {
+  max-width: 1100px; /* Adjust the width as needed */
+  margin: 0 auto; /* Center the container */
+}
+body #blog-list {
+  display: flex;
+  width: 100%;
+  padding: 4px;
+  flex-wrap: wrap;
+  padding: 10px;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+}
+body .add_blog {
+  background: #cc0000;
+  padding: 30px 0;
+  width: 80%;
+  text-align: center;
+  color: #fff;
+  margin: 30px auto;
+  border-radius: 20px;
+}
+body .add_blog .create-blog-form {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  margin: 20px auto;
+}
+body button {
+  background: rgb(141, 141, 138);
+  padding: 5px 20px;
+  border-radius: 7px;
+  color: #fff;
+  border: 1px solid #cc0000;
+}
+body .main_div {
+  background: #d3d3d3;
+  padding: 20px 0;
+}
+body .main_div .b_content {
+  padding: 0 25px;
+}
+body .main_div .b_content h2 {
+  color: #cc0000;
+}
+body .main_div .b_content h3 {
+  color: #cc0000;
+}
+
+.blog-entry {
+  margin-bottom: 20px;
+  padding: 10px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 70%;
+  cursor: pointer;
+  /* Style the blog author */
+  /* Style the blog date */
+  /* Style the blog content */
+}
+.blog-entry .blog-title {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+}
+.blog-entry .blog-author {
+  font-size: 16px;
+  color: #666;
+}
+.blog-entry .blog-date {
+  font-size: 14px;
+  color: #999;
+}
+.blog-entry .blog-expandButton {
+  margin-left: auto;
+}
+.blog-entry .blog-content {
+  font-size: 16px;
+  color: #333;
+  margin-top: 10px;
+  max-height: 70px;
+  overflow: hidden;
+  transition: max-height 0.5s; /* Add a smooth transition effect */
+}
+.blog-entry .blog-content.expanded {
+  max-height: none;
+}
+.blog-entry .flex {
+  display: flex;
+}
+
+/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,65 @@
+
+
+body{
+  max-width: 1100px; /* Adjust the width as needed */
+  margin: 0 auto; /* Center the container */
+
+    #blog-list {
+      display: flex;
+        width: 100%;
+        padding: 4px;
+        flex-wrap: wrap;
+        // background-color: rgb(141, 141, 138);
+        padding: 10px;
+        gap: 10px;
+        justify-content: center;
+        align-items: center;
+        // border: 1px solid #ddd;
+      }
+
+      //box for dynamically adding a blog
+      .add_blog {
+        background: #cc0000;
+        padding: 30px 0;
+        width: 80%;
+        text-align: center;
+        color: #fff;
+        margin: 30px auto;
+        border-radius: 20px;
+
+        //to display the blog form
+        .create-blog-form {
+          display: flex;
+          gap: 10px;
+          justify-content: center;
+          margin: 20px auto;
+        }
+
+      }
+
+      //styling for global buttons
+      button {
+        background: rgb(141, 141, 138);
+        padding: 5px 20px;
+        border-radius: 7px;
+        color: #fff;
+        border: 1px solid #cc0000;
+      }
+
+      // main div which contains all blogs.
+      .main_div {
+        background: #d3d3d3;
+        padding: 20px 0;
+
+        .b_content {
+          padding: 0 25px;
+          h2 {
+            color: #cc0000;
+          }
+          h3 {
+            color: #cc0000
+          }
+        }
+      }
+      
+}
